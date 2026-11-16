@@ -1,0 +1,10 @@
+[project]
+name = "agent4science"
+version = "0.1.0"
+description = "Agents for science"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+docs = ["properdocs", "properdocs-theme-mkdocs"]
