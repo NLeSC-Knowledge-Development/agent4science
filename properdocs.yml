@@ -1,0 +1,9 @@
+site_name: agent4science
+site_url: https://nlesc-knowledge-development.github.io/agent4science/
+repo_url: https://github.com/NLeSC-Knowledge-Development/agent4science
+
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
