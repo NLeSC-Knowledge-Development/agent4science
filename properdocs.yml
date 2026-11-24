@@ -7,3 +7,6 @@ theme:
 
 nav:
   - Home: index.md
+  - Background:
+      - Overview: background/index.md
+      - RAG: background/rag.md
