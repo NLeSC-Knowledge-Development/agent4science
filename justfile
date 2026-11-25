@@ -2,7 +2,7 @@
 # More info check https://just.systems/man/en/introduction.html
 
 # Override on the command line, e.g. `just addr=0.0.0.0:9000 serve-docs`
-properdocs := "uv run properdocs"
+properdocs := "uv run --group docs properdocs"
 config     := "properdocs.yml"
 addr       := "localhost:8000"
 site_dir   := "site"
