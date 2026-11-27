@@ -7,4 +7,4 @@ requires-python = ">=3.10"
 dependencies = []
 
 [dependency-groups]
-docs = ["properdocs", "properdocs-theme-mkdocs"]
+docs = ["properdocs", "mkdocs-material>=9.7.7"]

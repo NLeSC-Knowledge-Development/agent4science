@@ -3,11 +3,36 @@ site_url: https://nlesc-knowledge-development.github.io/agent4science/
 repo_url: https://github.com/NLeSC-Knowledge-Development/agent4science
 
 theme:
-  name: mkdocs
-
-nav:
-  - Home: index.md
-  - Run Ollama on the SURF Research Environment: ollama-surf.md
+  name: 'material'
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: white
+    accent: purple
+    toggle:
+      icon: material/weather-sunny
+      name: "Switch to dark mode"
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: white
+    accent: purple
+    toggle:
+      icon: material/weather-night
+      name: "Switch to light mode"
+  features:
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - announce.dismiss
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  icon:
+    logo: 'material/library-outline'
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  # favicon: images/XXX.svg
+  # logo: images/XXX.svg
 
 markdown_extensions:
   - admonition
