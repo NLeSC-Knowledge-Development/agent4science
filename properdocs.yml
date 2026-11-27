@@ -1,4 +1,4 @@
-site_name: agent4science
+site_name: Agent for Science
 site_url: https://nlesc-knowledge-development.github.io/agent4science/
 repo_url: https://github.com/NLeSC-Knowledge-Development/agent4science
 
@@ -38,5 +38,19 @@ markdown_extensions:
   - admonition
   - md_in_html
 
-extra_css:
-  - css/extra.css
+nav:
+  # - Home: index.md
+  - Agent 101:
+    - What is AI agent?: agent101/what-is-AI-agent.md
+    - What is LLM? : agent101/what-is-llm.md
+    - Open LLM models: agent101/open-llm-models.md
+    - LLM inference engines: agent101/llm-inference-engines.md
+    - What is harness?: agent101/what-is-harness.md
+    - Agent skills: agent101/agent-skills.md
+    - MCP: agent101/mcp.md
+    - RAG: agent101/rag.md
+    - Sandbox: agent101/sandbox.md
+  - Tutorials:
+    - Run Ollama on SURF Research Cloud: tutorials/ollama-surf.md
+  - Demos:
+    - PROBE: demos/probe.md
